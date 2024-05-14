@@ -37,11 +37,6 @@ func init() {
 				return
 			}
 
-			if err := m.Up(); err != nil && err.Error() != "no change" {
-				log.Fatalf("Migrate up error %v\n", err)
-				return
-			}
-
 			fmt.Println("Migration Up done")
 		},
 	}
