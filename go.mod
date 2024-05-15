@@ -1,4 +1,4 @@
-module github.com/byteintellect/dbmigrator
+module github.com/aniketexplorex/dbmigrator
 
 go 1.17
 
