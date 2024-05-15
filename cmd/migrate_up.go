@@ -2,13 +2,14 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/byteintellect/dbmigrator/database"
+	"log"
+	"os"
+
+	"github.com/aniketexplorex/dbmigrator/database"
 	"github.com/golang-migrate/migrate/v4"
 	"github.com/golang-migrate/migrate/v4/database/mysql"
 	"github.com/golang-migrate/migrate/v4/source/file"
 	"github.com/spf13/cobra"
-	"log"
-	"os"
 )
 
 var migrateUpCmd *cobra.Command

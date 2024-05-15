@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/byteintellect/dbmigrator/database"
+	"github.com/aniketexplorex/dbmigrator/database"
 	"github.com/golang-migrate/migrate/v4"
 	"github.com/golang-migrate/migrate/v4/database/mysql"
 	"github.com/golang-migrate/migrate/v4/source/file"
