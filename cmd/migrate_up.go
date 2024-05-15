@@ -32,7 +32,7 @@ func init() {
 				log.Fatalf("Error opening file %v\n", err)
 				return
 			}
-			m, err := migrate.NewWithInstance("file", fileSource, os.Getenv("DATABASE_NAME"), dbDriver)
+			_, err = migrate.NewWithInstance("file", fileSource, os.Getenv("DATABASE_NAME"), dbDriver)
 			if err != nil {
 				log.Fatalf("Migrate error %v\n", err)
 				return
