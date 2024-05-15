@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/byteintellect/dbmigrator/cmd"
+	"github.com/aniketexplorex/dbmigrator/cmd"
 )
 
 func main() {
